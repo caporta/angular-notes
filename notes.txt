@@ -22,6 +22,8 @@ One-Way -> [attr]
 Event -> (attr)
 Two-way -> [(attr)]
 
+Pipes = data transformers (like filters in Ang1)
+
 use `any[]` type to define an array of unknown types
 
 Sample App:
