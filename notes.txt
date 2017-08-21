@@ -1,0 +1,34 @@
+Angular Component:
+  - Template
+  - Class
+  - Metadata (decorator)
+
+Root Module <- Feature Module
+
+Angular Libraries are modules
+
+Module/Class rel is has many, belongs to
+
+Modules can use directives defined within its scope, or by importing other modules
+
+Mad Modules!!
+
+One-way binding via interpolation
+  - <img [src]='product.imageUrl'></img> // <- PROPERTY BINDING IS PREFERABLE TO INTERPOLATION
+  - <h1>{{ pageTitle }}</h1> is equal to...
+  - <h1 innerText={{ pageTitle }}></h1>
+
+One-Way -> [attr]
+Event -> (attr)
+Two-way -> [(attr)]
+
+use `any[]` type to define an array of unknown types
+
+Sample App:
+  - App
+    - Welcome Component
+    - Product List Component
+      - Star Component
+    - Product Detail Component
+      - Star Component (reused)
+    - Product Data Service
